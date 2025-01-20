@@ -1,3 +1,4 @@
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -25,6 +26,7 @@ public class NameLengthPositiveTest {
     }
 
     @Test
+    @DisplayName("Проверка имени длиной 3, 4, 12, 18, 19 символов")
     public void nameLengthPositiveTest() {
         Account account = new Account(name);
         assertTrue(account.checkNameToEmboss());
