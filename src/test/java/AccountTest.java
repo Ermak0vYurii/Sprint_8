@@ -1,6 +1,5 @@
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class AccountTest {
